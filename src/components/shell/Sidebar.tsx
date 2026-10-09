@@ -10,6 +10,7 @@ import {
   ChevronsRight,
   Database,
   Folder,
+  Gauge,
   Globe,
   History,
   Info,
@@ -239,6 +240,11 @@ function MainDirectory({
       label: t("nav.usage"),
       icon: ChartColumn,
       trailing: todayLabel,
+    },
+    {
+      page: "antigravityQuota",
+      label: t("nav.antigravityQuota", { defaultValue: "Antigravity 额度" }),
+      icon: Gauge,
     },
   ];
 

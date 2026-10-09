@@ -3974,7 +3974,8 @@
       "mappingFull": "モデルマッピング"
     },
     "needsAttention": "対応が必要",
-    "back": "戻る"
+    "back": "戻る",
+    "antigravityQuota": "Antigravity 利用枠"
   },
   "appsPage": {
     "showInSidebar": "{{name}} をサイドバーに表示",

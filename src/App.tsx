@@ -81,6 +81,7 @@ import { discardUnsavedChanges, hasUnsavedChanges } from "@/lib/unsavedChanges";
 import { SettingsPage } from "@/components/settings/SettingsPage";
 import { AuthCenterPanel } from "@/components/settings/AuthCenterPanel";
 import { AppsPage } from "@/components/apps/AppsPage";
+import { AntigravityQuotaPage } from "@/components/antigravity/AntigravityQuotaPage";
 import {
   checkToolUpdatesInBackground,
   useToolUpdatesAvailable,
@@ -1471,6 +1472,8 @@ function App() {
         );
       case "apps":
         return <AppsPage />;
+      case "antigravityQuota":
+        return <AntigravityQuotaPage />;
       default:
         return null;
     }

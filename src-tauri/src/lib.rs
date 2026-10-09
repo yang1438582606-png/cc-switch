@@ -1392,6 +1392,8 @@ pub fn run() {
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![
+            commands::query_antigravity_quota,
+            commands::open_antigravity_cli,
             commands::get_providers,
             commands::get_current_provider,
             commands::add_provider,
