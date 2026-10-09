@@ -1,0 +1,15 @@
+name: Antigravity Windows Test Build
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bootstrap:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v6
+      - name: Explain
+        run: echo "The feature branch supplies the full Antigravity build workflow."
