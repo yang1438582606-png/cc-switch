@@ -2,6 +2,9 @@ name: Antigravity Windows Test Build
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feat/antigravity-acp-quota
 
 permissions:
   contents: read
